@@ -8,7 +8,7 @@
 
 #include <iostream>
 using namespace std;
-//#define I1(a,j,i) a[j]>=a[i]?i:j
+#define I1(a,j,i) a[j]>=a[i]?i:j
 //#define I2(a,j,i) I1(a,j,i)==j?i-1:j+1
 #include <vector>
 long int p1[1005][1005];
